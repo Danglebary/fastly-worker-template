@@ -1,0 +1,16 @@
+[package]
+name = "fafstly-worker-template"
+version = "1.0.0"
+authors = ["Austin See"]
+edition = "2018"
+publish = false
+
+[profile.release]
+debug = 1
+
+[dependencies]
+fastly = "0.9.2"
+log = "0.4.17"
+log-fastly = "0.9.2"
+envy = "0.4.2"
+serde = { version = "1.0.158", features = ["derive"] }

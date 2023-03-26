@@ -1,0 +1,9 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["Austin See"]
+description = ""
+language = "rust"
+manifest_version = 2
+name = "fastly-worker-template"
+service_id = ""
